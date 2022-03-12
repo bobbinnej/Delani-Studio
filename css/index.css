@@ -13,8 +13,7 @@
 h1,h6,p{
     color:var(--white);
     font-weight: bolder;
-    margin-right: 5%;
-   
+    margin-right: 5%; 
 }
 
 
@@ -24,7 +23,6 @@ h1,h6,p{
    background-position: center;
    background-size:cover;
    position:relative;
-   
    
 }
 h6{
@@ -36,10 +34,7 @@ h6{
   
 }
 
-#about{
-
-
-    
+#about{  
     padding-top: 100px;
     padding-bottom: 100px;
     background-color:white;
@@ -61,15 +56,12 @@ h6{
     padding-top: 100px;
     padding-bottom: 100px;
     background-color:white;
+
     background-image: url(../images/s_image.jpg);
     background-repeat: no-repeat;
     position: relative;
     background-position: center center;
     background-size: auto 100%;
-  
-    
-    
-  
  
 }
 .my-services{
@@ -81,6 +73,15 @@ h6{
     font-weight: 400;
     font-size: 13px;
     font-weight: 500;
+}
+
+#what-we-do{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    color: black;
+
 }
 
 
