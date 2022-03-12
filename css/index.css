@@ -14,6 +14,7 @@ h1,h6,p{
     color:var(--white);
     font-weight: bolder;
     margin-right: 5%;
+   
 }
 
 body{
@@ -23,7 +24,30 @@ body{
    background-attachment: fixed;
    background-position: center;
    position: relative;
+   z-index: -1;
 }
 h6{
     padding-bottom: 13.6% ;
+}
+
+.hero{
+    background:var(--white);
+  
+}
+
+#about{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color:white;
+    
+}
+
+.about-us{
+    color: black;
+}
+
+ .content{
+    color: black;
+    font-weight: 400;
+    font-size: 13px;
 }
