@@ -17,14 +17,13 @@ h1,h6,p{
    
 }
 
-body{
-   background-image: url(../images/h_img.jpg);
+
+.logo{
+   background-image: url(../images/h_img.jpg) ;
    background-repeat: no-repeat;
-   background-size: cover;
-   position: relative;  
-   background-position:center;
-   background-attachment: fixed;
-   
+   background-position: center;
+   background-size:cover;
+   position:relative;
    
    
 }
@@ -38,6 +37,9 @@ h6{
 }
 
 #about{
+
+
+    
     padding-top: 100px;
     padding-bottom: 100px;
     background-color:white;
