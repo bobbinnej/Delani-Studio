@@ -5,35 +5,25 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.circle{
-    border: 3px solid white;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    margin:5px ;
-    padding:25px ;
-    position: relative;
-    overflow: hidden;
-    margin-left: 45%;
-    
-}
-.text{
-    transform: translate(-50%, -50%);
-    position: relative;
-    top:50%;
-    left:50%;
+
+:root{
+    --white:#ffffff;
 }
 
-.hero{
-  background-image: url(../images/h_img.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  position: relative;
-  
-  color: white;
-  font-weight: bolder;
+h1,h6,p{
+    color:var(--white);
+    font-weight: bolder;
+    margin-right: 5%;
+}
+
+body{
+   background-image: url(../images/h_img.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   position: relative;
+}
+h6{
+    padding-bottom: 13.6% ;
 }
