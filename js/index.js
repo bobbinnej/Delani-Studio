@@ -48,3 +48,4 @@ var name1 ="name-input";
 var email = "email-input";
 console.log("user entered name",name1);
 console.log("user entered enami",email);
+
