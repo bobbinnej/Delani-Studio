@@ -90,4 +90,35 @@ h6{
     padding-bottom: 30px;
 }
 
+.des-showing{
+    display: none;
+}
+
+.para-des{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.dev-showing{
+    display: none;
+}
+.para-dev{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.prod-showing{
+    display: none;
+}
+.para-prod{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#portfolio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:black;
+}
+
 
