@@ -117,7 +117,7 @@ h6{
 
 #portfolio{
     padding-top: -60%;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
     background-color:white;
 }
 .portfolio-section{
@@ -127,3 +127,44 @@ h6{
 
 }
 
+
+#contact{
+
+    padding-top: 10%;
+    
+    background-image: url(../images/c_image.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    background-size:cover;
+}
+
+
+.contact-section{
+    color: white;
+    text-transform: uppercase;
+   
+  
+ 
+
+}
+
+#name-input{
+    border: 1px solid white;
+    margin-bottom: 4%;
+    
+
+}
+
+#email-input{
+    border: 1px solid white;
+}
+
+::placeholder { 
+    color: white;
+    opacity: 1
+  }
+  
+  textarea.form-control {
+    color: white;
+}
