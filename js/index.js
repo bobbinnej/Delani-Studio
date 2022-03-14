@@ -47,7 +47,6 @@ $(document).ready(function(){
     });
     
 
-
 });
 
 
@@ -61,11 +60,7 @@ $(document).ready(function(){
     $(".portfolio-image5").tooltip();
     $(".portfolio-image6").tooltip();
     $(".portfolio-image7").tooltip();
-    $(".portfolio-image8").tooltip();
-   
-
-    
-
+    $(".portfolio-image8").tooltip(); 
 
    });
 
@@ -88,8 +83,6 @@ $(document).ready(function(){
         alert("Fill empty fields");
         
     }
-
-
 
   }
 
