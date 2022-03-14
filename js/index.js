@@ -43,9 +43,47 @@ $(document).ready(function(){
 });
 
 
-/*user interface code */
-var name1 ="name-input";
-var email = "email-input";
-console.log("user entered name",name1);
-console.log("user entered enami",email);
 
+
+
+$(document).ready(function(){
+    $("#myform").submit(function(event){
+
+        $(".name-input").append("blah");
+        $(".email-input").append("blah");
+        $(".exampleFormControlTextarea1").append("blah");
+
+        event.preventDefault();
+
+
+
+    });
+
+  
+});
+
+
+$(document).ready(function(){
+    $("#myform").submit(function(event){
+
+        var name1 = $("input#name-input").val();
+        var email1 = $("input#email-input").val();
+        var textInput = $("input#exampleFormControlTextarea1").val();
+        $(".name-input").text(name1);
+        $(".email-input").text(email1);
+        $(".exampleFormControlTextarea1").text(textInput);
+
+        event.preventDefault();
+
+        $("popup").dialogue(function(){
+            title: "confirmation",
+           
+
+        });
+
+
+
+    });
+
+  
+});
