@@ -76,11 +76,11 @@ $(document).ready(function(){
 
     if(name1 !=="" && email1 !="" && textarea1 !=""){
 
-        alert(`Hello ${name1} Your feedback has been recieved`);
+        alert(`Hello ${name1} Your email has been recieved`);
 
         
     }else{
-        alert("Fill empty fields");
+        alert("Fill all the empty fields");
         
     }
 
