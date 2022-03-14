@@ -51,36 +51,26 @@ $(document).ready(function(){
 });
 
 
-
-
-
-$(document).ready(function(){
-    $("#myform").submit(function(event){
-
-        $(".name-input").append("blah");
-        $(".email-input").append("blah");
-        $(".exampleFormControlTextarea1").append("blah");
-
-        event.preventDefault();
-
-
-
-    });
-
-  
-});
-
-
-
-
+/*Adding a hover effect to the port-folio section */
    $(document).ready(function(){
 
-    $(".portfolio-images").tooltip();
+    $(".portfolio-image4").tooltip();
+    $(".portfolio-image3").tooltip();
+    $(".portfolio-image2").tooltip();
+    $(".portfolio-image1").tooltip();
+    $(".portfolio-image5").tooltip();
+    $(".portfolio-image6").tooltip();
+    $(".portfolio-image7").tooltip();
+    $(".portfolio-image8").tooltip();
+   
+
+    
+
 
    });
 
 
-
+/*Gathering user input from the form */
   function contactUs(){
 
     console.log("hello world");
