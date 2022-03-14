@@ -19,12 +19,12 @@
   }
 }
   
-
-
-
+/*Holder for styles to be used throughout the code*/
 :root{
     --white:#ffffff;
 }
+
+/*Styling all the h1,h6,p*/
 
 h1,h6,p{
     color:var(--white);
@@ -32,7 +32,7 @@ h1,h6,p{
     margin-right: 5%; 
 }
 
-
+/*Styling the home or logo section*/
 .logo{
    background-image: url(../images/h_img.jpg) ;
    background-repeat: no-repeat;
@@ -45,14 +45,10 @@ h6{
     padding-bottom: 13.6% ;
 }
 
-.hero{
-    background:var(--white);
-  
-}
-
+/*Styling the about section*/
 #about{  
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color:white;
     
 }
@@ -67,7 +63,7 @@ h6{
     font-weight: 400;
     font-size: 13px;
 }
-
+/*Services section*/
 #services{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -90,7 +86,7 @@ h6{
     font-size: 13px;
     font-weight: 500;
 }
-
+/*What we do section*/
 #what-we-do{
 
     padding-top: 100px;
@@ -130,7 +126,7 @@ h6{
     font-weight: 400;
     font-size: 13px;
 }
-
+/*Portfolio section*/
 #portfolio{
     padding-top: -60%;
     padding-bottom: 60px;
@@ -143,11 +139,9 @@ h6{
 
 }
 
-
+/*Contact section*/
 #contact{
-
-    padding-top: 1%;
-    
+    padding-top: 1%;   
     background-image: url(../images/c_image.jpg);
     background-repeat: no-repeat;
     position: relative;
@@ -182,7 +176,7 @@ h6{
     opacity: 1; 
   }
   
-
+/*Footer Section*/
 
 #footer-section{
     padding-top: 2%;
