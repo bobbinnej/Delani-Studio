@@ -181,11 +181,14 @@ h6{
     opacity: 1
   }
   
-  textarea.form-control {
+  .form-control::placeholder { 
     color: white;
-}
+    opacity: 1; 
+  }
+  
 
-#footer{
+
+#footer-section{
     padding-top: 2%;
     
 }
