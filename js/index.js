@@ -1,3 +1,11 @@
+/*Styling what we do  section using css in jquery*/
+
+$(".design-header").css("font-weight",("bold"));
+$(".design-development").css("font-weight",("bold"));
+$(".design-product").css("font-weight",("bold"));
+
+
+
 /*Hide and show event on for the design part */
 $(document).ready(function(){
     $(".para-des").click(function(){
