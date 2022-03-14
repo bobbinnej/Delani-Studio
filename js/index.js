@@ -75,9 +75,6 @@ $(document).ready(function(){
 
         event.preventDefault();
 
-        $("popup").dialogue(function(){
-            title: "confirmation",
-           
 
         });
 
@@ -86,4 +83,3 @@ $(document).ready(function(){
     });
 
   
-});
