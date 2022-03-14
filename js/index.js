@@ -71,23 +71,37 @@ $(document).ready(function(){
 });
 
 
-$(document).ready(function(){
-    $("#myform").submit(function(event){
-
-        var name1 = $("input#name-input").val();
-        var email1 = $("input#email-input").val();
-        var textInput = $("input#exampleFormControlTextarea1").val();
-        $(".name-input").text(name1);
-        $(".email-input").text(email1);
-        $(".exampleFormControlTextarea1").text(textInput);
-
-        event.preventDefault();
 
 
-        });
+   $(document).ready(function(){
+
+    $(".portfolio-images").tooltip();
+
+   });
 
 
 
-    });
+  function contactUs(){
+
+    console.log("hello world");
+
+    let name1=document.getElementById("name-input").value;
+    let email1=document.getElementById("email-input").value;
+    let textarea1=document.getElementById("exampleFormControlTextarea1").value;
+
+    if(name1 !=="" && email1 !="" && textarea1 !=""){
+
+        alert(`Hello ${name1} Your feedback has been recieved`);
+
+        
+    }else{
+        alert("Fill empty fields");
+        
+    }
+
+
+
+  }
+
 
   
